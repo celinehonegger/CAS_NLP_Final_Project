@@ -1,0 +1,33 @@
+{
+  "translation_model": "Helsinki-NLP/opus-mt-fr-de",
+  "classification_model": "/Users/celinehonegger/Library/CloudStorage/Dropbox/5_Projects/FinalProjectNLP/output/models/gbert_merged_label_classifier",
+  "data": "/Users/celinehonegger/Library/CloudStorage/Dropbox/5_Projects/FinalProjectNLP/data/processed/french_segments.csv",
+  "translated_data": "/Users/celinehonegger/Library/CloudStorage/Dropbox/5_Projects/FinalProjectNLP/data/processed/french_segments_translated_de.csv",
+  "rows": 222,
+  "labels": {
+    "credit claiming": 0,
+    "explicit blame shifting": 1,
+    "implicit blame avoidance": 2
+  },
+  "device": "mps",
+  "loss": 0.7969199738332203,
+  "accuracy": 0.6486486486486487,
+  "macro_f1": 0.6476572913814096,
+  "confusion_matrix": [
+    [
+      52,
+      8,
+      8
+    ],
+    [
+      15,
+      49,
+      12
+    ],
+    [
+      19,
+      16,
+      43
+    ]
+  ]
+}

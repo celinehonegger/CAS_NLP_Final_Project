@@ -1,0 +1,96 @@
+{
+  "model_name": "deepset/gbert-base",
+  "data": "/Users/celinehonegger/Library/CloudStorage/Dropbox/5_Projects/FinalProjectNLP/data/processed/german_segments.csv",
+  "train_rows": 537,
+  "test_rows": 133,
+  "labels": {
+    "blaming": 0,
+    "credit claiming": 1,
+    "explaining/sharing responsibility": 2,
+    "praising": 3,
+    "shifting responsibility": 4
+  },
+  "epochs": 5,
+  "batch_size": 8,
+  "learning_rate": 2e-05,
+  "max_length": 256,
+  "device": "mps",
+  "freeze_bert": false,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.5061779951348024,
+      "test_loss": 1.371117865338045,
+      "test_accuracy": 0.47368421052631576,
+      "test_macro_f1": 0.25668389835119987
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.2459063757868374,
+      "test_loss": 1.1513899529681486,
+      "test_accuracy": 0.5413533834586466,
+      "test_macro_f1": 0.3458740772904907
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.8373706250944558,
+      "test_loss": 1.0949218413409065,
+      "test_accuracy": 0.5714285714285714,
+      "test_macro_f1": 0.3933372792273564
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5758935384014073,
+      "test_loss": 1.1474952855530907,
+      "test_accuracy": 0.5639097744360902,
+      "test_macro_f1": 0.43332998527962685
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4360538618091275,
+      "test_loss": 1.1545716208570145,
+      "test_accuracy": 0.5789473684210527,
+      "test_macro_f1": 0.49883365535813323
+    }
+  ],
+  "test_loss": 1.1545716208570145,
+  "test_accuracy": 0.5789473684210527,
+  "test_macro_f1": 0.49883365535813323,
+  "confusion_matrix": [
+    [
+      2,
+      2,
+      3,
+      0,
+      1
+    ],
+    [
+      0,
+      30,
+      6,
+      2,
+      1
+    ],
+    [
+      1,
+      4,
+      29,
+      2,
+      4
+    ],
+    [
+      2,
+      2,
+      5,
+      5,
+      1
+    ],
+    [
+      0,
+      6,
+      14,
+      0,
+      11
+    ]
+  ]
+}

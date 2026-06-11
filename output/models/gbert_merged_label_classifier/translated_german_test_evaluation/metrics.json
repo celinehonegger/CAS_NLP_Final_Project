@@ -1,0 +1,31 @@
+{
+  "model": "/Users/celinehonegger/Library/CloudStorage/Dropbox/5_Projects/FinalProjectNLP/output/models/gbert_merged_label_classifier",
+  "data": "/Users/celinehonegger/Library/CloudStorage/Dropbox/5_Projects/FinalProjectNLP/data/processed/translated_german_segments_test.csv",
+  "rows": 45,
+  "labels": {
+    "credit claiming": 0,
+    "explicit blame shifting": 1,
+    "implicit blame avoidance": 2
+  },
+  "device": "cpu",
+  "loss": 0.6412648260593414,
+  "accuracy": 0.7333333333333333,
+  "macro_f1": 0.7335344394167924,
+  "confusion_matrix": [
+    [
+      10,
+      1,
+      2
+    ],
+    [
+      1,
+      13,
+      3
+    ],
+    [
+      2,
+      3,
+      10
+    ]
+  ]
+}

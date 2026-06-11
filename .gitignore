@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Large model weights and checkpoints
+output/models/**/model.safetensors
+output/models/**/*.bin
+output/models/**/*.pt
+output/models/**/*.pth
+output/models/**/checkpoint*/
+output/models/**/optimizer.pt
+output/models/**/scheduler.pt
+output/models/**/rng_state.pth
+output/models/**/trainer_state.json
+output/models/**/training_args.bin
+
+# Hugging Face / training cache folders
+.cache/
+cache/
+runs/
+wandb/
