@@ -24,3 +24,6 @@ The project fine-tunes `deepset/gbert-base` on German-language text segments and
 ## Notes
 
 The final model uses three labels: `credit claiming`, `implicit blame avoidance`, and `explicit blame shifting`. French segments are not used for model training; they are translated into German and used as an external evaluation set.
+
+## Declaration of AI use
+All ideas, concepts, and data used for training the model are my own. I used Codex for parts of the coding and creating figures.
